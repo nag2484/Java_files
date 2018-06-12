@@ -1,0 +1,15 @@
+System.out.println("FirstName : " + fName);
+System.out.println("LastName : " + lName);
+
+System.out.println("First Name : " + sup.firstName);
+System.out.println("Last Name : " + sup.lastName);
+System.out.println("Address : " + sup.address);
+System.out.println("Email Id : " + sup.emailId);
+System.out.println("Phone Number: " + sup.phoneNum);
+System.out.println("Zip Code : " + sup.zipCode);
+
+Sign_Up sup = new Sign_Up("Clad","Harry","abc@123.com");
+Sign_Up sup = new Sign_Up("Clad","Harry","abc@123.com","23, South ave");
+Sign_Up sup = new Sign_Up("Clad","Harry","abc@123.com","23, South ave", 44567);
+Sign_Up sup = new Sign_Up("Clad","Harry","abc@123.com","23, South ave", 44567,665478);
+Sign_Up sup = new Sign_Up("Clad","Harry","abc@123.com","23, South ave", 44567,665478,"abc@123");
